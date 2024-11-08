@@ -36,3 +36,34 @@ main {
     padding: 30px;
     text-align: center;
 }
+
+.heading p {
+    color: hsl(303, 10%, 53%);
+
+    font-weight: bold;
+    text-align: center;
+    line-height: 18px;
+    
+    padding: 0px  10px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ratings section {
+    background-color: hsl(300, 24%, 96%);
+    background-image: url(images/icon-star.svg) ;
+    background-repeat: repeat-x;
+
+    width: 46px;
+    padding: 20px 80px;
+
+    gap: 50px;
+}
+
+.ratings p {
+    text-align: center;
+}
