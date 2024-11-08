@@ -1,0 +1,38 @@
+
+/* =============================================================================
+#TYPOGRAPHY
+============================================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    font-family: "League Spartan", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.heading h1 {
+    font-size: 32px;
+    font-weight: bold; 
+
+
+    color: hsl(300, 43%, 22%);
+}
+/* =============================================================================
+#GENERAL
+============================================================================= */
+body {
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+/* =============================================================================
+#CONTENT
+============================================================================= */
+
+.heading h1 {
+    padding: 30px;
+    text-align: center;
+}
