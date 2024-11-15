@@ -48,22 +48,49 @@ main {
 }
 
 .ratings {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
 }
 
 .ratings section {
     background-color: hsl(300, 24%, 96%);
-    background-image: url(images/icon-star.svg) ;
-    background-repeat: repeat-x;
+    /* background-image: url(images/icon-star.svg) ;
+    background-repeat: repeat-x; */
 
     width: 46px;
     padding: 20px 80px;
-
-    gap: 50px;
 }
 
 .ratings p {
     text-align: center;
+}
+
+/* .rating + section {
+    margin: 10px;
+} */
+
+/* .ratings img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+.reviews {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+}
+
+.reviews img {
+    border-radius: 50%;
+
+    width: 50px;
+}
+
+.reviews span {
+    color: hsl(333, 80%, 67%);
 }
