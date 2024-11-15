@@ -17,6 +17,11 @@ body {
 
     color: hsl(300, 43%, 22%);
 }
+
+.ratings{
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+}
 /* =============================================================================
 #GENERAL
 ============================================================================= */
@@ -62,27 +67,36 @@ main {
     /* background-image: url(images/icon-star.svg) ;
     background-repeat: repeat-x; */
 
-    width: 46px;
+    /* width: 46px; */
     padding: 20px 80px;
+
+    border-radius: 10px;
 }
+
 
 .ratings p {
     text-align: center;
 }
 
-/* .rating + section {
-    margin: 10px;
-} */
 
-/* .ratings img {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
+.ratings img {
+    align-content: center;
+    justify-content: center;
+}
+
+.last-rating  {
+    margin-bottom: 40px;
+}
 
 .reviews {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+
     background-color: hsl(300, 43%, 22%);
     color: white;
+
+    border-radius: 10px;
 }
 
 .reviews img {
