@@ -112,17 +112,31 @@ main {
     }
 
     .buyers {
-        display: flex;
+        /* display: flex;
         flex-direction: row;
+        justify-content: center; */
+
+        text-align: center;
+
         margin-bottom: 26px;
     }
+
+    /* .buyers span {
+        display: flex;
+        flex-direction: column;
+    } */
 
     .reviews img {
         border-radius: 50%;
 
+        height: 50px;
         width: 50px;
     }
 
     .reviews span {
         color: hsl(333, 80%, 67%);
+    }
+
+    .reviews picture {
+        height: 50px;
     }
