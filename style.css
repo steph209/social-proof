@@ -27,6 +27,7 @@ body {
 ============================================================================= */
 body {
     background-color: white;
+    align-items: center;
 }
 
 main {
@@ -97,25 +98,31 @@ main {
 
     border-radius: 10px;
 
-    padding: 5px;
+    /* padding: 5px; */
 }
 
-.reviews section {
-    background-color: hsl(300, 43%, 22%);
+    .reviews section {
+        background-color: hsl(300, 43%, 22%);
 
-    border-radius: 10px;
+        border-radius: 10px;
 
-    height: 160px;
+        height: 160px;
 
-    padding: 20px;
-}
+        padding: 20px;
+    }
 
-.reviews img {
-    border-radius: 50%;
+    .buyers {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 26px;
+    }
 
-    width: 50px;
-}
+    .reviews img {
+        border-radius: 50%;
 
-.reviews span {
-    color: hsl(333, 80%, 67%);
-}
+        width: 50px;
+    }
+
+    .reviews span {
+        color: hsl(333, 80%, 67%);
+    }
