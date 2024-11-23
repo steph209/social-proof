@@ -97,8 +97,6 @@ main {
     color: white;
 
     border-radius: 10px;
-
-    /* padding: 5px; */
 }
 
     .reviews section {
@@ -110,21 +108,6 @@ main {
 
         padding: 20px;
     }
-
-    .buyers {
-        /* display: flex;
-        flex-direction: row;
-        justify-content: center; */
-
-        text-align: center;
-
-        margin-bottom: 26px;
-    }
-
-    /* .buyers span {
-        display: flex;
-        flex-direction: column;
-    } */
 
     .reviews img {
         border-radius: 50%;
@@ -140,3 +123,23 @@ main {
     .reviews picture {
         height: 50px;
     }
+
+        .profiles { 
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+
+            .buyers {
+                text-align: center;
+            }
+
+            .profiles .buyers {
+                position: relative;
+                bottom: 30px;
+                right: 30px;
+            }
+
+            .profiles img {
+                position: relative;
+                top: 12px;
+            }
