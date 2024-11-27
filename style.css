@@ -61,6 +61,8 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
+
+    white-space: nowrap;
 }
 
 .ratings section {
@@ -80,13 +82,13 @@ main {
 }
 
 
-.ratings img {
+/* .ratings img {
     align-content: center;
     justify-content: center;
-}
+} FIGURE OUT THE STARS LATER GETTING TOO STUCK */
 
 .last-rating  {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .reviews {
@@ -96,17 +98,17 @@ main {
 
     color: white;
 
-    border-radius: 10px;
+    margin-left: 30px;
 }
 
     .reviews section {
         background-color: hsl(300, 43%, 22%);
 
-        border-radius: 10px;
-
-        height: 160px;
-
+        height: 175px;
+        width: 240px;
+        
         padding: 20px;
+        border-radius: 10px;
     }
 
     .reviews img {
