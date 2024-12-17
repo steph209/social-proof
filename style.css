@@ -54,15 +54,12 @@ main {
 }
 
 .ratings {
-    /* display: flex;
-    align-items: center;
-    flex-direction: column; */
-
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
 
     white-space: nowrap;
+    padding-top: 26px
 }
 
 .ratings section {
@@ -139,9 +136,42 @@ main {
                 position: relative;
                 bottom: 30px;
                 right: 30px;
+
+                padding-left: 20px;
             }
 
             .profiles img {
                 position: relative;
                 top: 12px;
             }
+
+/* =============================================================================
+#DESKTOP
+============================================================================= */
+@media screen and (min-width: 935px) { 
+    body {
+        /* display: flex;
+        flex-direction: row;
+        justify-content: center; */
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .heading {
+        text-align: left;
+    }
+
+    .ratings {
+
+    }
+
+    .reviews {
+        display: flex;
+        /* flex-direction: row; */
+        align-items: center;
+    }
+}
